@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+
 .bg-home{
     background-color: blueviolet;
-    margin: 0;
-    height: 42rem;
+    margin: -1rem;
+    height: 40rem;
+    font-family: 'Viga';
+}
+.logo-config{
+    margin-left: 10rem;
+    width: 25rem;
+    margin-top: 1.5rem;
+}
+
+.identity{
+    text-align: center;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+
+}
+.waiterLogo, .kitchenLogo{
+    width: 5rem;
+    display: inline-block;
+    margin-top: -1.6rem;
+    align-content: center;
+    margin-left: 11.8rem;
+    margin-right: -2rem
 }

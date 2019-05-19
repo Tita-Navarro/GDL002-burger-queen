@@ -1,0 +1,15 @@
+.contain{
+    background-color: purple;
+    height: 6rem;
+
+}
+
+.navLogo{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+}
+
+.navLogo:hover{
+    cursor: pointer;
+}
