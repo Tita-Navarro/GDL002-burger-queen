@@ -7,48 +7,48 @@
         {
             "item": "Water 500ml",
             "price": "5.00",
-            "type": "Drinks"
+            "image": ""
         },
     
         {
             "item": "Water 750ml",
             "price": "7.00",
-            "type": "Drinks"
+            "image": ""
         },
         {
             "item": "Hamburguer ",
             "price": "10.00",
-            "type": "Lunch"
+            "image": "Lunch"
         },
     
         {
             "item": "Double Hamburguer",
             "price": "15.00",
-            "type": "Lunch"
+            "image": "Lunch"
         },
     
         {
             "item": "Arrow onions",
             "price": "5.00",
-            "type": "sides"
+            "image": "sides"
         },
     
         {
             "item": "French fries",
             "price": "5.00",
-            "type": "sides"
+            "image": "sides"
         },
     
         {
             "item": "Soda 500ml",
             "price": "7.00",
-            "type": "Drinks"
+            "image": ""
         },
     
         {
             "item": "Soda 750ml",
             "price": "10.00",
-            "type": "Drinks"   
+            "image": ""   
         }
     
 ]

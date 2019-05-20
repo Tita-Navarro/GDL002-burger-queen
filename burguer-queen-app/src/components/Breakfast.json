@@ -6,22 +6,22 @@
     {
         "item": "America Coffee",
         "price": "5.00",
-        "type": "Drinks"
+        "image": " "
     },
     {
         "item": "Coffee with milk",
         "price": "7.00",
-        "type": "Drinks"
+        "image": " "
     },
     {
         "item": "Sandwich wit jam and chesse",
         "price": "10.00",
-        "type": "Breakfast"
+        "image": " "
     },
     {
         "item": "Fruit juice",
         "price": "7.00",
-        "type": "Drinks"
+        "type": " "
     }
 
 ]
