@@ -1,0 +1,29 @@
+{
+    "Breakfast":
+
+
+[
+    {
+        "item": "America Coffee",
+        "price": "5.00",
+        "type": "Drinks"
+    },
+    {
+        "item": "Coffee with milk",
+        "price": "7.00",
+        "type": "Drinks"
+    },
+    {
+        "item": "Sandwich wit jam and chesse",
+        "price": "10.00",
+        "type": "Breakfast"
+    },
+    {
+        "item": "Fruit juice",
+        "price": "7.00",
+        "type": "Drinks"
+    }
+
+]
+
+}

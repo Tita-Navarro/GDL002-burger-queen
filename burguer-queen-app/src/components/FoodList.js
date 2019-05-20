@@ -1,6 +1,7 @@
 import React from 'react';
+import {FoodList} from './FoodList.json'
 
-class FoodList extends React.Component {
+class showFoodList extends React.Component {
     render(){
         return(
 
@@ -8,4 +9,4 @@ class FoodList extends React.Component {
     }
 }
 
-export default FoodList
+export default showFoodList
