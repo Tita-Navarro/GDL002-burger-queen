@@ -10,7 +10,7 @@ class Home extends React.Component {
           <img
             src="https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/components/burguer-queen2.png"
             alt="logo"
-            className="logo-config"
+            className="logo-config img-fluid"
           />
           <h3 className='identity'>Identíficate</h3>
         </div>
@@ -18,10 +18,10 @@ class Home extends React.Component {
         <div>
            <Link to='/Waiter'><img src="https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/components/meserowhite.png"
              alt="waiter"
-             className="waiterLogo"/></Link> 
+             className="waiterLogo img-fluid rounded float-left"/></Link> 
              <Link to='/Kitchen'><img src="https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/components/chefwhite.png" 
              alt="kitchen"
-             className="kitchenLogo"/></Link>
+             className="kitchenLogo img-fluid rounded float-right"/></Link>
         </div>
       </div>
     );

@@ -1,12 +1,12 @@
 import React from 'react';
-import {Breakfast} from './Breakfast.json';
+import {Lunch} from './Breakfast.json';
 
-class showBreakfast extends React.Component {
+class showLunch extends React.Component {
     render(){
         return(
             <div className='card'>
                 <div className='col-6'>
-                    {Breakfast.map((showList, number)=>(
+                    {Lunch.map((showList, number)=>(
                         <div className='card-body' key={number}> 
                             <div className='card-image'>
                             <img src={showList.image} alt="..." className='card-img-top' />
@@ -25,4 +25,4 @@ class showBreakfast extends React.Component {
     }
 }
 
-export default showBreakfast
+export default showLunch

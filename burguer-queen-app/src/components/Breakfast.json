@@ -6,22 +6,22 @@
     {
         "item": "America Coffee",
         "price": "5.00",
-        "image": " "
+        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-americano.jpg "
     },
     {
         "item": "Coffee with milk",
         "price": "7.00",
-        "image": " "
+        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-con-leche.jpg "
     },
     {
         "item": "Sandwich wit jam and chesse",
         "price": "10.00",
-        "image": " "
+        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/sandwich-jamon.jpg"
     },
     {
         "item": "Fruit juice",
         "price": "7.00",
-        "type": " "
+        "type": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/jugo-frutas.jpg "
     }
 
 ]

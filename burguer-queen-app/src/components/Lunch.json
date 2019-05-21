@@ -7,48 +7,48 @@
         {
             "item": "Water 500ml",
             "price": "5.00",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/agua-500ml.jpg"
         },
     
         {
             "item": "Water 750ml",
             "price": "7.00",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/agua-750ml.jpg"
         },
         {
             "item": "Hamburguer ",
             "price": "10.00",
-            "image": "Lunch"
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/hamburguesa-sencilla.jpg"
         },
     
         {
             "item": "Double Hamburguer",
             "price": "15.00",
-            "image": "Lunch"
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/hamburguesa-doble.jpg"
         },
     
         {
             "item": "Arrow onions",
             "price": "5.00",
-            "image": "sides"
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/aros-cebolla.jpg"
         },
     
         {
             "item": "French fries",
             "price": "5.00",
-            "image": "sides"
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/papas.jpg"
         },
     
         {
             "item": "Soda 500ml",
             "price": "7.00",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/refresco-500ml.jpg"
         },
     
         {
             "item": "Soda 750ml",
             "price": "10.00",
-            "image": ""   
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/refresco-750ml.jpg"   
         }
     
 ]
