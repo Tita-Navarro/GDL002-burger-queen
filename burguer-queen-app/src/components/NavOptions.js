@@ -1,11 +1,13 @@
 import React from 'react';
-import './styles/navoptions.css'
+import './styles/navoptions.css';
+import {Link} from 'react-router-dom'
 class NavOptions extends React.Component {
     render(){
         return(
             <div className='col-6'>
-                <button type="button" className="btn btn-primary btn-mar">Breakfast</button>
-                <button type="button" className="btn btn-primary btn-mar">Lunch</button>
+                <Link to='/Bmenu' className='btn btn-primary margin-btn' ><span className='border-option'>Breakfast</span></Link>
+                <Link to='/Lmenu' className='btn btn-primary margin-btn' > <span className='border-option'>Lunch</span></Link>
+
             </div>
         );
     }

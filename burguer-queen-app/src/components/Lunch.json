@@ -1,55 +1,62 @@
 {
-    "Lunch":
-
-
-[
+    "Lunch": 
+    [
     
         {
+            "id": "05",
             "item": "Water 500ml",
             "price": "5.00",
+            "flavor":null,
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/agua-500ml.jpg"
         },
-    
         {
+            "id": "06",
             "item": "Water 750ml",
             "price": "7.00",
+            "flavor":null,
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/agua-750ml.jpg"
         },
         {
+            "id": "07",
             "item": "Hamburguer ",
             "price": "10.00",
+            "flavor":["beef", "chicken", "vegetarian"],
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/hamburguesa-sencilla.jpg"
         },
-    
         {
+            "id": "08",
             "item": "Double Hamburguer",
             "price": "15.00",
+            "flavor":["beef", "chicken", "vegetarian"],
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/hamburguesa-doble.jpg"
         },
-    
         {
+            "id": "09",
             "item": "Arrow onions",
             "price": "5.00",
+            "flavor":null,
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/aros-cebolla.jpg"
         },
-    
         {
+            "id": "10",
             "item": "French fries",
             "price": "5.00",
+            "flavor":["lemon pepper", "BBQ", "parmesan"],
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/papas.jpg"
         },
-    
         {
+            "id": "11",
             "item": "Soda 500ml",
             "price": "7.00",
+            "flavor" : [ "lemon", "orange", "cola", "apple", "grape" ],
             "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/refresco-500ml.jpg"
         },
-    
         {
+            "id": "12",
             "item": "Soda 750ml",
             "price": "10.00",
-            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/refresco-750ml.jpg"   
+            "flavor" : [ "lemon", "orange", "cola", "apple", "grape" ],
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/refresco-750ml.jpg"
         }
-    
-]
+    ]
 }

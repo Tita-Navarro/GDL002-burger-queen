@@ -21,7 +21,7 @@ class Home extends React.Component {
              className="waiterLogo img-fluid rounded float-left"/></Link> 
              <Link to='/Kitchen'><img src="https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/components/chefwhite.png" 
              alt="kitchen"
-             className="kitchenLogo img-fluid rounded float-right"/></Link>
+             className="kitchenLogo img-fluid rounded"/></Link>
         </div>
       </div>
     );

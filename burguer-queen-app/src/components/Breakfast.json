@@ -1,29 +1,33 @@
 {
-    "Breakfast":
-
-
-[
-    {
-        "item": "America Coffee",
-        "price": "5.00",
-        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-americano.jpg "
-    },
-    {
-        "item": "Coffee with milk",
-        "price": "7.00",
-        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-con-leche.jpg "
-    },
-    {
-        "item": "Sandwich wit jam and chesse",
-        "price": "10.00",
-        "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/sandwich-jamon.jpg"
-    },
-    {
-        "item": "Fruit juice",
-        "price": "7.00",
-        "type": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/jugo-frutas.jpg "
-    }
-
-]
-
+    "Breakfast":[
+        {
+            "id": "01",
+            "item": "American Coffee",
+            "price": "5.00",
+            "flavor":null,
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-americano.jpg "
+        },
+        {
+            "id": "02",
+            "item": "Coffee with milk",
+            "price": "7.00",
+            "flavor":null,
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/cafe-con-leche.jpg "
+        },
+        {
+            "id": "03",
+            "item": "Sandwich wit jam and chesse",
+            "price": "10.00",
+            "flavor":null,
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/sandwich-jamon.jpg"
+        },
+        {
+            "id": "04",
+            "item": "Fruit juice",
+            "price": "7.00",
+            "flavor":["Orange", "carrot", "combined"],
+            "image": "https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/images/jugo-frutas.jpg "
+        }
+        
+    ]
 }
