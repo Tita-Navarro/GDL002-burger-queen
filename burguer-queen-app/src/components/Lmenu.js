@@ -6,19 +6,18 @@ import Navbar from './Navbar';
 
 
 class Lmenu extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             Breakfast: [],
             Lunch: [],
             Orders: [],
         }
     }
-submit(item, price, flavor){
+submit(item, price){
         const order={
             item: item,
-            price: price,
-            flavor: flavor
+            price: price * this.state.Count,
         }
         this.setState({
             Orders: [...this.state.Orders, order]
@@ -35,7 +34,6 @@ submit(item, price, flavor){
                     image: foodB[food].image,
                     item: foodB[food].item,
                     price: foodB[food].price,
-                    flavor: foodB[food].flavor
 
                 });
                 }
@@ -43,8 +41,7 @@ submit(item, price, flavor){
                     Lunch: newStateLunch
                 });
             });
-        }
-            
+        }   
             render(){
               return(
                 <div className="justify-content-center">
@@ -58,16 +55,17 @@ submit(item, price, flavor){
                           {this.state.Lunch.map((menuDetail, i) =>
                           <div className="card mb-4 card" key={i}>
                               <button className="row no-gutters " onClick={()=>{
-                                    this.submit(menuDetail.item, menuDetail.price)}}
+                                    this.submit(menuDetail.item, menuDetail.price, this.handleDecrement)}}
                                     type="submit">
                                   <div className="col-md-6">
                                       <img src={menuDetail.image} className="card-img " alt=""/>
                                   </div>
-                                  <div className="col-md-6">
+                                  <div className="col-md-6" onClick={()=> this.handleDecrement}>
                                       <div className="card-body  col-md-12">
+                                          <span> {this.state.Count}</span>
                                           <h5 className="card-title">{menuDetail.item}</h5>
                                           <p className="card-text">{"$" + menuDetail.price}</p>
-                                          <p className="card-text">{"flavors: " + menuDetail.flavor}</p>
+                                          
                                       </div>
                                   </div>
                                   </button>

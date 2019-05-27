@@ -13,12 +13,12 @@ class Bmenu extends React.Component {
             Orders: [],
         }
     }
-submit(item, price, flavor){
+submit(item, price){
         const order={
             item: item,
             price: price,
-            flavor: flavor
-        }
+            }
+
         this.setState({
             Orders: [...this.state.Orders, order]
         })
@@ -65,7 +65,6 @@ submit(item, price, flavor){
                                       <div className="card-body  col-md-12">
                                           <h5 className="card-title">{menuDetail.item}</h5>
                                           <p className="card-text">{"$" + menuDetail.price}</p>
-                                          <p className="card-text">{"flavors: " + menuDetail.flavor}</p>
                                       </div>
                                   </div>
                               </button>
