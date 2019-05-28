@@ -17,7 +17,7 @@ class Lmenu extends React.Component {
 submit(item, price){
         const order={
             item: item,
-            price: price * this.state.Count,
+            price: price 
         }
         this.setState({
             Orders: [...this.state.Orders, order]
