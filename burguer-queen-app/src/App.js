@@ -12,7 +12,7 @@ function App() {
   return (
     <HashRouter>
       <Switch>
-        <Route exact path="/Home" component={Home}/>
+        <Route exact path="/Home" render={()=> <Home />} />
         <Route exact path="/Waiter" component={Waiter}/>
         <Route exact path="/Bmenu" render={() => <Bmenu />} />
         <Route exact path="/Lmenu" render={() => <Lmenu />} />
