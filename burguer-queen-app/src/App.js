@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import Waiter from "./pages/Waiter";
 import Home from "./components/Home";
 import Kitchen from "./pages/Kitchen";
@@ -10,7 +10,7 @@ import Order from "./components/Order";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/Waiter" component={Waiter}/>
@@ -21,7 +21,7 @@ function App() {
         
         
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
