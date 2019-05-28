@@ -7,7 +7,7 @@ class Navbar extends React.Component {
         return(
             <div className='Navbar contain'>
                 <div className='container-fluid'>
-                <Link className='Navbar_brand' to='/'><img className='rounded float-left navLogo' 
+                <Link className='Navbar_brand' to='/Home'><img className='rounded float-left navLogo' 
                 src='https://raw.githubusercontent.com/Tita-Navarro/GDL002-burger-queen/master/burguer-queen-app/src/components/burguer-queen2.png' 
                 alt='logoHome' /></Link>
                 </div>
