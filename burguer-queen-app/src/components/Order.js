@@ -8,7 +8,7 @@ export class Order extends React.Component{
                     <ul key={i} className="list-group col-md-12">
                         <li className="list-group-item d-flex justify-content-between align-items-center col-md-12">
                             {food.item}
-                            <span className="btn btn-success">{"$" + food.price}</span>
+                            <span className="btn btn-success">{"$" + " " + food.price}</span>
                         </li>
                     </ul>
                 </div>

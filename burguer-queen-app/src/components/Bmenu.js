@@ -3,6 +3,7 @@ import firebase from '../firebase/firebase';
 import Order from '../components/Order';
 import NavOptions from './NavOptions';
 import Navbar from './Navbar';
+import Clientform from './Clientform';
 
 
 class Bmenu extends React.Component {
@@ -73,6 +74,8 @@ submit(item, price){
                       </div>
                       </div>
                       <div className="col">
+                            <Clientform />
+                            <br/>
                             <Order foodOrder={this.state.Orders}/>
                         </div> 
                             </div>
