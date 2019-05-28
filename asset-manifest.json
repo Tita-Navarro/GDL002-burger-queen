@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/GDL002-burger-queen/./static/css/main.910f92df.chunk.css",
-    "main.js": "/GDL002-burger-queen/./static/js/main.3f620567.chunk.js",
-    "main.js.map": "/GDL002-burger-queen/./static/js/main.3f620567.chunk.js.map",
-    "runtime~main.js": "/GDL002-burger-queen/./static/js/runtime~main.c68b016f.js",
-    "runtime~main.js.map": "/GDL002-burger-queen/./static/js/runtime~main.c68b016f.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/GDL002-burger-queen/./static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.4734a7ee.chunk.js": "/GDL002-burger-queen/./static/js/2.4734a7ee.chunk.js",
-    "static/js/2.4734a7ee.chunk.js.map": "/GDL002-burger-queen/./static/js/2.4734a7ee.chunk.js.map",
-    "index.html": "/GDL002-burger-queen/./index.html",
-    "precache-manifest.6f4adfcd86b2d423eb7b115b5f96cf8b.js": "/GDL002-burger-queen/./precache-manifest.6f4adfcd86b2d423eb7b115b5f96cf8b.js",
-    "service-worker.js": "/GDL002-burger-queen/./service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/GDL002-burger-queen/./static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.910f92df.chunk.css.map": "/GDL002-burger-queen/./static/css/main.910f92df.chunk.css.map"
+    "main.css": "/burguer-queen/static/css/main.910f92df.chunk.css",
+    "main.js": "/burguer-queen/static/js/main.f3f9b938.chunk.js",
+    "main.js.map": "/burguer-queen/static/js/main.f3f9b938.chunk.js.map",
+    "runtime~main.js": "/burguer-queen/static/js/runtime~main.36f0585b.js",
+    "runtime~main.js.map": "/burguer-queen/static/js/runtime~main.36f0585b.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/burguer-queen/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.f937b4ca.chunk.js": "/burguer-queen/static/js/2.f937b4ca.chunk.js",
+    "static/js/2.f937b4ca.chunk.js.map": "/burguer-queen/static/js/2.f937b4ca.chunk.js.map",
+    "index.html": "/burguer-queen/index.html",
+    "precache-manifest.a3e1a479366ee8375b83a6be4afffa40.js": "/burguer-queen/precache-manifest.a3e1a479366ee8375b83a6be4afffa40.js",
+    "service-worker.js": "/burguer-queen/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/burguer-queen/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.910f92df.chunk.css.map": "/burguer-queen/static/css/main.910f92df.chunk.css.map"
   }
 }
