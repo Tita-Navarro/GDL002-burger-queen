@@ -4,21 +4,20 @@ import Order from '../components/Order';
 import NavOptions from './NavOptions';
 import Navbar from './Navbar';
 
+
 class Bmenu extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             Breakfast: [],
-            Lunch: [],
             Orders: [],
         }
     }
 submit(item, price){
         const order={
             item: item,
-            price: price,
-            }
-
+            price: price
+        }
         this.setState({
             Orders: [...this.state.Orders, order]
         })
@@ -34,15 +33,14 @@ submit(item, price){
                     image: foodB[food].image,
                     item: foodB[food].item,
                     price: foodB[food].price,
-                    flavor: foodB[food].flavor,
+
                 });
                 }
                 this.setState({
-                    Lunch: newStateBreakfast
+                    Breakfast: newStateBreakfast
                 });
             });
-        }
-            
+        }   
             render(){
               return(
                 <div className="justify-content-center">
@@ -53,30 +51,30 @@ submit(item, price){
                             <div className="row">
                                 <div className="col">
                                 <div className="all-card col-md-12 bg-transparent justify-content-center">
-                          {this.state.Lunch.map((menuDetail, i) =>
+                          {this.state.Breakfast.map((menuDetail, i) =>
                           <div className="card mb-4 card" key={i}>
                               <button className="row no-gutters " onClick={()=>{
-                                    this.submit(menuDetail.item, menuDetail.price)}}
+                                    this.submit(menuDetail.item, menuDetail.price, this.handleDecrement)}}
                                     type="submit">
                                   <div className="col-md-6">
                                       <img src={menuDetail.image} className="card-img " alt=""/>
                                   </div>
-                                  <div className="col-md-6">
+                                  <div className="col-md-6" onClick={()=> this.handleDecrement}>
                                       <div className="card-body  col-md-12">
+                                          <span> {this.state.Count}</span>
                                           <h5 className="card-title">{menuDetail.item}</h5>
                                           <p className="card-text">{"$" + menuDetail.price}</p>
+                                          
                                       </div>
                                   </div>
-                              </button>
+                                  </button>
                           </div>
                           )}
                       </div>
                       </div>
                       <div className="col">
                             <Order foodOrder={this.state.Orders}/>
-                        </div>
-                                
-                                
+                        </div> 
                             </div>
                         </div>
                       
